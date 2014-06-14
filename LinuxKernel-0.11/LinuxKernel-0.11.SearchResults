@@ -1,0 +1,8 @@
+---- NR_HASH Matches (3 in 1 files) ----
+Buffer.c (fs):struct buffer_head * hash_table[NR_HASH];
+Buffer.c (fs):#define _hashfn(dev,block) (((unsigned)(dev^block))%NR_HASH)
+Buffer.c (fs):	for (i=0;i<NR_HASH;i++)
+---- NR_HASH Search Errors Encountered (2) ----
+The following 2 files could not be processed:
+E:\SourceInsightWorkNamespace\SourceInsight\LinuxKernel-0.11\LinuxKernel-0.11.IAB : File could not be opened.
+E:\SourceInsightWorkNamespace\SourceInsight\LinuxKernel-0.11\LinuxKernel-0.11.IMB : File could not be opened.
